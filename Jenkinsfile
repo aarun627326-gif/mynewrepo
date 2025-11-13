@@ -1,5 +1,5 @@
 pipeline {
-    agent any  // Runs on any available Jenkins agent
+    agent any 
 
     stages {
         stage('Checkout Code') {
